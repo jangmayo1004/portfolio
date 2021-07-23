@@ -106,8 +106,8 @@ box-shadow:0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
 .pf03 i {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(45deg);
 font-size:1000px;}
 
-.pf03 i.xi-arrow-left {color:rgb(155, 162, 255);margin-left:-600px;}
-.pf03 i.xi-arrow-right {color:rgb(155, 162, 255);margin-left:600px;}
+.pf03 i.xi-arrow-left {color:rgb(155, 162, 255);margin-left:600px;}
+.pf03 i.xi-arrow-right {color:rgb(155, 162, 255);margin-left:-600px;}
 
 @media (max-width:768px){
     .pf03 .pt_slider {margin:0 auto;width:auto;z-index:999;}
