@@ -160,8 +160,8 @@ border-radius:50%;margin:30px 4px;}
 
 .pf04 figure {position:relative;text-align:center;}
 .pf04 img {width:50%;}
-.pf04 ul {text-align:center;padding-top:10px;}
-.pf04 a {border:1px solid #333;}
+.pf04 ul {text-align:center;padding-top:30px;}
+.pf04 a {border:1px solid #333;border-radius:15px;padding:5px 5px;}
 
 
 
