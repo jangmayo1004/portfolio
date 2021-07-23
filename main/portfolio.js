@@ -6,7 +6,7 @@ $("#main").fullpage({
     afterLoad: function(origin, destination, direction){
         $(".section").eq(destination.index).addClass("on").siblings().removeClass("on");
         $("nav li").eq(destination.index).addClass("on").siblings().removeClass("on");
-        if(destination.index===5) {
+        if(destination.index===6) {
             $("footer").css({color:"#fff"})
         }else{
             $("footer").removeAttr("style")
@@ -39,22 +39,22 @@ $("#cover_nav .link a").on("click", function(){
 
 
 $(".pf01 .xi-pause").on("click", function(){
-    $(".p01_video").trigger("pause");
+    $(".p02_video").trigger("pause");
 
 });
 
 $(".pf01 .xi-play").on("click", function(){
-    $(".p01_video").trigger("play");
+    $(".p02_video").trigger("play");
 
 });
 
 $(".pf02 .xi-pause").on("click", function(){
-    $(".p02_omori").trigger("pause");
+    $(".p03_omori").trigger("pause");
 
 });
 
 $(".pf02 .xi-play").on("click", function(){
-    $(".p02_omori").trigger("play");
+    $(".p03_omori").trigger("play");
 
 });
 
