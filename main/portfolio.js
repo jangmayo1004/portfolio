@@ -49,12 +49,12 @@ $(".pf01 .xi-play").on("click", function(){
 });
 
 $(".pf02 .xi-pause").on("click", function(){
-    $(".p03_omori").trigger("pause");
+    $(".p03_video").trigger("pause");
 
 });
 
 $(".pf02 .xi-play").on("click", function(){
-    $(".p03_omori").trigger("play");
+    $(".p03_video").trigger("play");
 
 });
 
