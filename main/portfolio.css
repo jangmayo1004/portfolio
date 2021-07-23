@@ -103,11 +103,11 @@ nav li.on a:after {width:100%;}
 box-shadow:0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
 
 .pf03 {overflow:hidden;}
-.pf03 i {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(45deg);
-font-size:1000px;}
+.pf03 i {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(90deg);
+font-size:700px;}
 
-.pf03 i.xi-arrow-left {color:rgb(155, 162, 255);margin-left:-600px;}
-.pf03 i.xi-arrow-right {color:rgb(155, 162, 255);margin-left:600px;}
+.pf03 i.xi-arrow-left {color:rgb(155, 162, 255);margin-left:700px;}
+.pf03 i.xi-arrow-right {color:rgb(155, 162, 255);margin-left:-700px;}
 
 @media (max-width:768px){
     .pf03 .pt_slider {margin:0 auto;width:auto;z-index:999;}
@@ -119,8 +119,8 @@ font-size:1000px;}
     .pf03 i {position:absolute;top:70%;left:50%;transform:translate(-50%,-50%) rotate(0);
     font-size:40px;cursor:pointer;z-index:1000;}
     
-    .pf03 i.xi-arrow-left {color:rgb(155, 162, 255);margin-left:-150px;}
-    .pf03 i.xi-arrow-right {color:rgb(155, 162, 255);margin-left:150px;}
+    .pf03 i.xi-arrow-left {color:rgb(155, 162, 255);margin-left:150px;}
+    .pf03 i.xi-arrow-right {color:rgb(155, 162, 255);margin-left:-150px;}
 
 }
 
@@ -159,9 +159,9 @@ border-radius:50%;margin:30px 4px;}
 
 
 .pf04 figure {position:relative;text-align:center;}
-.pf04 img {width:50%;}
+.pf04 img {width:50%;box-shadow:0px 10px 13px -7px #000000;border-radius:15px;}
 .pf04 ul {text-align:center;padding-top:30px;}
-.pf04 a {border:1px solid #333;border-radius:15px;padding:5px 5px;}
+.pf04 a {border:1px solid #333;border-radius:10px;padding:10px 10px;}
 
 
 
