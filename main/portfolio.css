@@ -143,7 +143,7 @@ border-radius:50%;margin:30px 4px;}
 }
 
 
-.pf04 img {width:100%;}
+.pf04 img {width:100%;box-shadow: #333;}
 .pf04 p {margin-bottom:30px;}
 .pf04 span {line-height:1.6;}
 .pf04 .txt {padding:40px 0 0 60px;}
@@ -158,10 +158,10 @@ border-radius:50%;margin:30px 4px;}
 
 
 
-.pf05 {text-align:center;line-height:100px;background:#f2f2f2;}
-.pf05 figure img {padding:40px;}
-
-
+.pf04 figure {position:relative;text-align:center;}
+.pf04 img {width:50%;}
+.pf04 ul {text-align:center;padding-top:10px;}
+.pf04 a {border:1px solid #333;}
 
 
 
